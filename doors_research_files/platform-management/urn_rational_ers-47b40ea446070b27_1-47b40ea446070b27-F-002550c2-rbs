@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+  <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c2"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:oslc_rm="http://open-services.net/xmlns/rm/1.0/"
+    xmlns:oslc_disc="http://open-services.net/xmlns/discovery/1.0/">
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002551c6">
+        <dc:title>5X - Management</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <dc:title>C - RBS</dc:title>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002551c4">
+        <dc:title>3A - Architecture</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002551c2">
+        <dc:title>1P - Performance</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>temp_zadmdistribaseline</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00200066"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002551c5">
+        <dc:title>4S - Sub-Systems</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002551c3">
+        <dc:title>2F - Functions</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002551c1">
+        <dc:title>0R - System Integration</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>DxlSpec.Items.Aventra.2FCON</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-002551c7"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002551c0">
+        <dc:title>Df - Business Needs</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+  </oslc_disc:ServiceProviderCatalog>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+  <rdf:Description rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/public/rootservices"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:jd="http://jazz.net/xmlns/prod/jazz/discovery/1.0/"
+    xmlns:trs="http://jazz.net/ns/trs#"
+    xmlns:oslc="http://open-services.net/ns/core#"
+    xmlns:jfs="http://jazz.net/xmlns/prod/jazz/jfs/1.0/"
+    xmlns:oslc_rm="http://open-services.net/xmlns/rm/1.0/">
+    <dc:title>DOORS ERS Repository</dc:title>
+    <jfs:oauthDomain>https://doorsdwa.bt.bombardier.net:8443/dwa</jfs:oauthDomain>
+    <jfs:oauthUserAuthorizationUrl rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/oauth-authorize-token"/>
+    <jfs:oauthRealmName>DWA</jfs:oauthRealmName>
+    <jd:registration rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/public/registration"/>
+    <trs:trackedResourceSet rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/trs"/>
+    <jfs:oauthRequestTokenUrl rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/oauth-request-token"/>
+    <jfs:oauthAccessTokenUrl rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/oauth-access-token"/>
+    <jfs:oauthRequestConsumerKeyUrl rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/oauth/request-consumer-key"/>
+    <oslc_rm:rmServiceProviders rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog"/>
+    <jd:oslcCatalogs>
+      <oslc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog">
+        <oslc:domain rdf:resource="http://open-services.net/ns/rm#"/>
+      </oslc:ServiceProviderCatalog>
+    </jd:oslcCatalogs>
+  </rdf:Description>

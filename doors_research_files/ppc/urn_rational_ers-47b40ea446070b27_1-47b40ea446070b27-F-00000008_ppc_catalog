@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+  <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00000008"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:oslc_rm="http://open-services.net/xmlns/rm/1.0/"
+    xmlns:oslc_disc="http://open-services.net/xmlns/discovery/1.0/">
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00001724">
+        <dc:title>Domain knowledge</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>sirius</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00001739"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00001726">
+        <dc:title>Templates</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00001732">
+        <dc:title>Platforms</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00001734">
+        <dc:title>References</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00001728">
+        <dc:title>Active projects</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00001731">
+        <dc:title>Order projects</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0000172f">
+        <dc:title>X-shared</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00001727">
+        <dc:title>Test area</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <dc:title>PPC</dc:title>
+  </oslc_disc:ServiceProviderCatalog>

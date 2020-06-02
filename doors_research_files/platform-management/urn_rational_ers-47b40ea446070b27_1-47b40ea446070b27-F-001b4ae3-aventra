@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+  <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-001b4ae3"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:oslc_rm="http://open-services.net/xmlns/rm/1.0/"
+    xmlns:oslc_disc="http://open-services.net/xmlns/discovery/1.0/">
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c1">
+        <dc:title>B - Clarifications</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c3">
+        <dc:title>D - Validation</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c2">
+        <dc:title>C - RBS</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c0">
+        <dc:title>A - Source Requirements</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c9">
+        <dc:title>G - Project Management</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>Project Overview</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-002550ca"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c8">
+        <dc:title>Z - Admin</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c7">
+        <dc:title>W - Synthesis</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c6">
+        <dc:title>V - Linkmodules</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00019a47">
+        <dc:title>ZZZ specific and older Templates and Configs.-.PGR-DARM</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550cc">
+        <dc:title>V - Link Modules</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c5">
+        <dc:title>F - Configuration Management</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <dc:title>AVENTRA</dc:title>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002550c4">
+        <dc:title>E - Design</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+  </oslc_disc:ServiceProviderCatalog>

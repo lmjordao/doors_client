@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+  <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00255660"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:oslc_rm="http://open-services.net/xmlns/rm/1.0/"
+    xmlns:oslc_disc="http://open-services.net/xmlns/discovery/1.0/">
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>SRS_QKPI</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00257eca"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>2F0101.REQ</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00257ec3"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00257ec7">
+        <dc:title>Config</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00257ecb">
+        <dc:title>02- AVENTRA Integration stream</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>4S_15.03.REQ</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00257ec2"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00257ecc">
+        <dc:title>03- Branch LOT 1.5.4</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>4S_15.01.REQ</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00256659"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>CSTS_Functional_SW_Architecture</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00257ec9"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00257ec4">
+        <dc:title>01- AVENTRA SRSs</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>4S_15.01.KB.SRD</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00257ec1"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <dc:title>4S_15.01 - Train Control and Monitoring System</dc:title>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>TCMS_Functional_SW_Architecture.REQ</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-0020002f"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>4S_15.01.KB5.SRD</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-M-00257ec0"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+  </oslc_disc:ServiceProviderCatalog>

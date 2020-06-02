@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+  <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:oslc_rm="http://open-services.net/xmlns/rm/1.0/"
+    xmlns:oslc_disc="http://open-services.net/xmlns/discovery/1.0/">
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669a4">
+        <dc:title>50 - Platform Light Rail Vehicles</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669b0">
+        <dc:title>90 - Training</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669af">
+        <dc:title>70 - Services</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00266cc0">
+        <dc:title>50 - RCS and Wayside</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669a0">
+        <dc:title>50 - Platform Mainline</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00000008">
+        <dc:title>PPC</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0026d458">
+        <dc:title>Collections</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0026d452">
+        <dc:title>30 - Building Blocks Library</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669aa">
+        <dc:title>20 - Generic Developments</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669ad">
+        <dc:title>90 - Others</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669a8">
+        <dc:title>10 - Source Documents Library</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00130444">
+        <dc:title>BOG</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0000000e">
+        <dc:title>PGR</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-00130452">
+        <dc:title>Platform Management</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0026d456">
+        <dc:title>95 - Classroom</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669b1">
+        <dc:title>40 - Systems</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669a6">
+        <dc:title>50 - Platform Metro</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669a1">
+        <dc:title>60 - Rolling Stock Equipment</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0026d45a">
+        <dc:title>Lost and Found</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0013044a">
+        <dc:title>PLM DOORS</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <dc:title>DOORS Database</dc:title>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0013044f">
+        <dc:title>APAC</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProvider>
+        <dc:title>DOORS Database</dc:title>
+        <oslc_disc:services rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/service"/>
+        <oslc_disc:details rdf:resource="https://doorsdwa.bt.bombardier.net:8443/dwa"/>
+      </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0000000c">
+        <dc:title>Group IS PLM</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669a3">
+        <dc:title>50 - Platform Locomotive</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0013045d">
+        <dc:title>Platform Library</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-0026d454">
+        <dc:title>98 - Archives</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+      <oslc_disc:ServiceProviderCatalog rdf:about="https://doorsdwa.bt.bombardier.net:8443/dwa/rm/discovery/catalog/urn:rational:ers-47b40ea446070b27:1-47b40ea446070b27-F-002669ab">
+        <dc:title>80 - Divisions</dc:title>
+      </oslc_disc:ServiceProviderCatalog>
+    </oslc_disc:entry>
+  </oslc_disc:ServiceProviderCatalog>
