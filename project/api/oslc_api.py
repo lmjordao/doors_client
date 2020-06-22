@@ -1,14 +1,22 @@
 """
 
 """
+from http import cookiejar
+from http.cookiejar import parse_ns_headers
+
 import requests
 import xml.etree.ElementTree as xmlET
 
 import urllib3
+from requests.cookies import create_cookie
 from urllib3.exceptions import InsecureRequestWarning
 
-from app.api.api_config import APIConfig
-from app.common.common import Common
+from api.api_config import APIConfig
+from common.common import Common
+
+
+def cookie_dict(args):
+    pass
 
 
 class OSLCApi:
@@ -37,7 +45,7 @@ class OSLCApi:
         self.username = 'hdias'  # ConfigFile.getinstance().config_section_map("CCM")['login']
         self.password = 'bt12345'  # ConfigFile.getinstance().config_section_map("CCM")['passwd']
         self.session = OSLCApi.server_login(self.authentication_server, self.username,
-                                               self.password)
+                                            self.password)
         self.server_address = server_address
         self.service = 'ccm'
 
@@ -95,7 +103,6 @@ class OSLCApi:
         :return: the catalog link
         """
         root_services, error = OSLCApi.get_root_services(server_address, service)
-
         service_provider = None
         if service == 'rm':
             service_provider = 'xmlns_rm:rmServiceProviders'
@@ -108,12 +115,14 @@ class OSLCApi:
         else:
             print(('ERROR: <' + str(service) + '> not recognized.'))
             exit(404)
-
         try:
+            service_provider = service_provider.split(':')[0]
+            print(service_provider)
             # service_provider = root_services.findx(service_provider)
             service_provider = root_services.find(service_provider, namespaces=APIConfig.OSLC_NAMESPACE_MAP)
             print('service provider: ' + str(service_provider))
-
+            input('parei aqui 7')
+            service_provider = 'http://open-services.net/ns/rm#'
         except SyntaxError as error:
             print(('ERROR: Failed to find <' + str(service_provider) + '>. \n'
                                                                        'REASON: ' + str(error)))
@@ -169,12 +178,23 @@ class OSLCApi:
                             headers = custom_headers
                     else:
                         headers = APIConfig.GET_DEFAULT_HEADERS
+                    print("head", headers)
+                    last_cookie = dict(OSLCApi.session.cookies)
+                    # last_cookie['JSESSIONID'] = 'E0A7F14C91637F6C669D4911B8A7AC43'
+                    print(last_cookie)
                     response = oslc_api.session.get(url,
                                                     headers=headers,
                                                     verify=False,
-                                                    params=params)
+                                                    params=params, cookies=last_cookie)
+                    print('novo', oslc_api.session.cookies)
+                    '''response = oslc_api.session.get(url,
+                                                    headers=headers,
+                                                    verify=False,
+                                                    params=params)'''
 
                 if operation == 'POST':
+                    #data = {'dwa_repository_value': 'urn:rational:ers-47b40ea446070b27:', 'loginButton': '','j_password': 'bt12345', 'j_username': 'hdias'}
+                    print(data)
                     if data is None:
                         return response, status_code
                     else:
@@ -186,7 +206,6 @@ class OSLCApi:
                         else:
                             headers = oslc_api.session.headers
                             headers.update(APIConfig.POST_DEFAULT_HEADERS)
-
                         response = oslc_api.session.post(url,
                                                          data=data,
                                                          headers=headers,
@@ -233,7 +252,7 @@ class OSLCApi:
 
             except requests.exceptions.ConnectionError as ex:
                 oslc_api.session = OSLCApi.server_login(oslc_api.authentication_server, oslc_api.username,
-                                                           oslc_api.password)
+                                                        oslc_api.password)
                 counter -= 1
                 status_code = APIConfig.OPERATION_ERROR
 
@@ -288,7 +307,7 @@ class OSLCApi:
 
         try:
             response = OSLCApi.session.get(authentication_link,
-                                              verify=False)
+                                           verify=False)
             response_content = response.content
             if response.status_code != APIConfig.OPERATION_SUCCESS:
                 print()
@@ -303,7 +322,7 @@ class OSLCApi:
 
         try:
             response = OSLCApi.session.get(authentication_link + '/auth/authrequired',
-                                              verify=False, )
+                                           verify=False, )
 
             response_content = response.content
             if response.status_code != APIConfig.OPERATION_SUCCESS:
@@ -320,7 +339,7 @@ class OSLCApi:
         try:
             url = response.url
             response = OSLCApi.session.get(url,
-                                              verify=False)
+                                           verify=False)
             if response.status_code != APIConfig.OPERATION_SUCCESS:
                 print()
                 print(('!ERROR! Server response: ' + response.status_code))
@@ -342,9 +361,9 @@ class OSLCApi:
                              'Accept': 'application/rdf+xml'}
 
             response = OSLCApi.session.post(url,
-                                               data=data,
-                                               verify=False,
-                                               headers=login_headers)
+                                            data=data,
+                                            verify=False,
+                                            headers=login_headers)
 
             if response.status_code != APIConfig.OPERATION_SUCCESS:
                 print()
@@ -377,5 +396,3 @@ class OSLCApi:
             namespace = property_definition[0:index + 1]
             prop = property_definition[index + 1:]
         return namespace, prop
-
-

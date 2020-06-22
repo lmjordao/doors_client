@@ -1,7 +1,7 @@
 """
 
 """
-from app.api.api_config import APIConfig
+from api.api_config import APIConfig
 
 
 class Common:

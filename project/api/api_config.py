@@ -1,7 +1,7 @@
 """
 
 """
-from app.doors.config import DoorsConfig
+from doors.config import DoorsConfig
 
 
 class APIConfig:
@@ -13,7 +13,6 @@ class APIConfig:
     #SERVER_ADDRESS = DoorsConfig.DOORS_SERVER_ADDRESS
 
     AUTH_URL_SUFFIX = '/auth/j_security_check'
-
     DEBUG = True
 
     OPERATION_SUCCESS = 200
