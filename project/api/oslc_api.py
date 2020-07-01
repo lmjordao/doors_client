@@ -13,6 +13,7 @@ from urllib3.exceptions import InsecureRequestWarning
 
 from api.api_config import APIConfig
 from common.common import Common
+from doors.config import DoorsConfig
 
 
 def cookie_dict(args):
@@ -304,55 +305,61 @@ class OSLCApi:
         authentication_link = authentication_server
         response_content = ''
         response = ''
-
+        """
         try:
             response = OSLCApi.session.get(authentication_link,
                                            verify=False)
             response_content = response.content
-            if response.status_code != APIConfig.OPERATION_SUCCESS:
+            if response.status_code > 400:
                 print()
                 print(('!ERROR! Server response: ' + response.status_code))
                 print(response_content)
-                exit(response.status_code)
+                # exit(response.status_code)
         except requests.exceptions.ConnectionError as e:
             print()
             print(('!ERROR! Server response: ' + str(e)))
             print(response_content)
-            exit(404)
+            # exit(404)
+        """
 
+        """
         try:
             response = OSLCApi.session.get(authentication_link + '/auth/authrequired',
                                            verify=False, )
 
             response_content = response.content
-            if response.status_code != APIConfig.OPERATION_SUCCESS:
+            if response.status_code > 400:
                 print()
                 print(('!ERROR! Server response: ' + response.status_code))
                 print(response_content)
-                exit(response.status_code)
+                # exit(response.status_code)
         except requests.exceptions.ConnectionError as e:
             print()
             print(('!ERROR! Server response: ' + str(e)))
             print(response_content)
-            exit(404)
+            # exit(404)
+        """
 
+        """
         try:
             url = response.url
             response = OSLCApi.session.get(url,
                                            verify=False)
-            if response.status_code != APIConfig.OPERATION_SUCCESS:
+            if response.status_code > 400:
                 print()
                 print(('!ERROR! Server response: ' + response.status_code))
                 print(response_content)
-                exit(response.status_code)
+                # exit(response.status_code)
         except requests.exceptions.ConnectionError as e:
             print()
             print(('!ERROR! Server response: ' + str(e)))
             print(response_content)
-            exit(404)
+            # exit(404)
 
+        """
         try:
-            url = authentication_link + APIConfig.AUTH_URL_SUFFIX
+            # url = authentication_link + APIConfig.AUTH_URL_SUFFIX
+            url = DoorsConfig.DOORS_AUTH_SERVER
             data = {'j_username': username,
                     'j_password': password}
 
@@ -365,18 +372,15 @@ class OSLCApi:
                                             verify=False,
                                             headers=login_headers)
 
-            if response.status_code != APIConfig.OPERATION_SUCCESS:
+            if response.status_code > 400:
                 print()
                 print(('!ERROR! Server response: ' + str(response.status_code)))
                 print(response_content)
-                exit(response.status_code)
-            else:
-                print('Authenticated as: ' + username)
+                # exit(response.status_code)
         except requests.exceptions.ConnectionError as ex:
             print()
             print(('!ERROR! Server response: ' + str(ex)))
             print(response_content)
-            exit(404)
 
         return OSLCApi.session
 
